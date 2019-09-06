@@ -1,0 +1,25 @@
+<view class="whole">
+  <image src="../../image/bj@2x.png"></image>
+  <view class="com">
+    <image src="../../image/LOGO@2x.png"></image>
+
+    <form bindsubmit="submit">
+      <view class="phone">
+        <text>手机号</text>
+        <input placeholder="请输入手机号"  bindinput ="userphone"  type='number' name="tel"></input>
+        <text class="ma" wx:if="{{code}}">{{time}}s</text>
+   <text class="ma"  bindtap='sendCode' wx:else>获取动态验证码</text>
+      </view>
+      <view class="yanzheng">
+        <text>验证码</text>
+        <input placeholder="请输入验证码" bindinput ="yanzhengma" type='number' name="code"></input>
+      </view>
+      <view class="yue">
+        <checkbox bindtap="cos" data-id="1"></checkbox>
+        <text>同意千艺景区管理平台《服务条款》</text>
+      </view>
+      <button  form-type='submit'>登录</button>
+    </form>
+  </view>
+
+</view>

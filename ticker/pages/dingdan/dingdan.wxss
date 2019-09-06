@@ -1,0 +1,196 @@
+Page{
+  width: 100%;
+  height: 100%;
+background:rgba(41,48,69,1);
+
+}
+.whole{
+  width: 100%;
+  height: 100%;
+background:rgba(41,48,69,1);
+padding-top: 30rpx;
+box-sizing: border-box;
+position: relative
+
+}
+.zhezao{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.7);
+z-index: 99999999;
+  padding-top: 80%;
+box-sizing: border-box
+
+}
+.btn{
+  width: 90%;
+  margin: 0 auto;
+
+height:218rpx;
+background:rgba(255,255,255,1);
+border-radius:20rpx;
+}
+.btn>view{
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  line-height: 109rpx;
+  font-size:36rpx;
+font-family:PingFang-SC-Medium;
+font-weight:500;
+color:rgba(26,26,26,1);
+}
+.zhezao>button{
+  height:108rpx;
+background:rgba(255,255,255,1);
+border-radius:20rpx;
+width: 90%;
+margin: 0 auto;
+  margin-top: 30rpx;
+font-size:36rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(26,26,26,1);
+text-align: center;
+line-height: 108rpx;
+}
+
+.com{
+width: 93%;
+margin: 0 auto;
+overflow: auto
+}
+.swiper-tab{
+  width: 100%;
+  height: 40rpx;
+
+}
+.swiper-tab-item{
+  width: 33.3%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  line-height: 40rpx;
+  font-size:28rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(255,255,255,0.3);
+}
+.com>image{
+  width: 100%;
+  height: 10rpx;
+
+}
+.active{
+  font-size:28rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(255,255,255,1);
+border-bottom: 4rpx solid #fff;
+}
+swiper{
+  /* height: 6000rpx; */
+ overflow: auto;
+ height: auto
+}
+.all{
+  width: 100%;
+  height: 404rpx;
+  margin-bottom: 30rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  padding-top: 20rpx;
+  box-sizing: border-box
+}
+.all>.top{
+  width: 90%;
+  height: 60rpx;
+  margin: 0 auto;
+  border-bottom: 2rpx solid #293045;
+  margin-bottom: 30rpx;
+}
+.all>.top>.left{
+  font-size:32rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(41,48,69,1);
+float: left
+}
+.all>.top>.right{
+  font-size:26rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(228,8,65,1);
+float: right
+}
+.all>.main{
+  width: 90%;
+  height: 282rpx;
+  margin: 0 auto;
+  position: relative
+}
+.all>.main>text{
+  display: block;
+  margin-bottom: 19rpx;
+  font-size:22rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(41,48,69,1);
+}
+.all>.main>button{
+  width:168rpx;
+height:58rpx;
+border:2px solid rgba(228,8,65,1);
+border-radius:29rpx;
+position: absolute;
+right: 0;
+bottom: 0rpx;
+font-size:26rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(228,8,65,1);
+text-align: center;
+line-height: 58rpx;
+
+}
+.all>.main>.btn1{
+    width:180rpx;
+height:58rpx;
+border:2px solid #3DB2A3;
+border-radius:29rpx;
+position: absolute;
+right: 0;
+bottom: 0rpx;
+font-size:26rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:#3DB2A3;
+text-align: center;
+line-height: 58rpx;
+}
+.all>.main>.btn2{
+    width:400rpx;
+height:58rpx;
+position: absolute;
+right: 0;
+bottom: 0rpx;
+}
+.all>.main>.btn2>button{
+  width:138rpx;
+height:58rpx;
+border:2px solid rgba(41,48,69,1);
+border-radius:29rpx;
+float: right;
+font-size:26rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(41,48,69,1);
+text-align: center;
+line-height: 58rpx;
+}
+.all>.main>.btn2>.etc{
+  margin-right: 20rpx;
+}

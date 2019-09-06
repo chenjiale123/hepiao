@@ -1,0 +1,39 @@
+<view class="whole">
+  <view class="com">
+
+    <view class="search">
+      <view class="left">
+        <input placeholder="请输入订单号" bindinput="show"></input>
+      </view>
+      <view class="right" bindtap="sousuo">
+        <button>查询</button>
+      </view>
+    </view>
+    <view class="ka" wx:if="{{array!==null}}" >
+      <view class="yin"></view>
+      <view class="top">
+        <view class="topIn">
+        {{array.ticketName}} x{{array.ticketNum}}
+        </view>
+
+      </view>
+      <view class="main">
+        <view class="mainIn">
+      
+          <text>电话：{{array.buyersPhone}}</text>
+          <text>验证码：{{array.orderno}}</text>
+          <text>订单总价：￥{{array.price}}</text>
+          <text>订单时间：{{array.createDate}}</text>
+          <button wx:if="{{array.orderStatus==4}}" bindtap="jian">验票</button>
+          <button wx:if="{{array.orderStatus==3}}">已验票</button>
+
+        </view>
+
+      </view>
+    </view>
+    <view class="ka" wx:if="{{array==null}}">
+    <image src="../../image/failurerefundlayer@2x.png"></image>
+    </view>
+  </view>
+
+</view>

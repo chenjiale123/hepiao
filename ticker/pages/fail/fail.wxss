@@ -1,0 +1,129 @@
+/* pages/fail/fail.wxss */
+Page{
+  width: 100%;
+  height: 100%;
+
+}
+.whole{
+    width: 100%;
+  height: 100%;
+  background:rgba(41,48,69,1);
+padding-top: 30rpx;
+box-sizing: border-box;
+}
+.com{
+width: 93%;
+margin: 0 auto;
+
+}
+.jieguo{
+  width: 50%;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+.jieguo>image{
+  width: 108rpx;
+  height: 108rpx;
+  
+}
+.jieguo>text{
+  font-size:40rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(255,255,255,1);
+text-align: center;
+display: block;
+margin-top: 30rpx;
+}
+.ka{
+  margin-top: 58rpx;
+  width:100%;
+height:398rpx;
+background:rgba(255,255,255,1);
+border-radius:20rpx
+}
+.yin{
+  width: 100%;
+  height: 17rpx;
+  background:linear-gradient(180deg,rgba(65,69,143,0.6) 0%,rgba(255,255,255,0) 100%);
+/* border-radius:20px; */
+}
+.top{
+  width: 100%;
+  height: 82rpx;
+}
+.topIn{
+  width: 90%;
+   margin: 0 auto;
+   height: 100%;
+   font-size:32rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(41,48,69,1);
+border-bottom: 2rpx dashed #293045;
+line-height: 82rpx;
+}
+.main{
+  width: 100%;
+  height: 297rpx;
+
+}
+.mainIn{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 55rpx;
+  box-sizing: border-box;
+  position: relative
+}
+.mainIn>text{
+  display: block;
+  font-size:26rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(41,48,69,1);
+margin-bottom: 30rpx;
+}
+.mainIn>button{
+position: absolute;
+bottom: 0rpx;
+right: 0;
+width:128rpx;
+height:58rpx;
+border:2px solid rgba(61,178,163,1);
+border-radius:29rpx;
+font-size:26rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(61,178,163,1);
+text-align: center;
+line-height: 58rpx;
+}
+.com>button{
+  width: 180rpx;
+  height: 80rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: 99rpx;
+  border-radius: 40rpx;
+  position: relative
+
+
+}
+.com>button>image{
+  width: 180rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.com>button>text{
+  z-index: 999;
+  position: relative;
+  display: block;
+  font-size:36rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(255,255,255,1);
+line-height: 80rpx;
+}

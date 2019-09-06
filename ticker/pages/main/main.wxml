@@ -1,0 +1,29 @@
+<view class="whole">
+  <view class="com">
+    <view class="top">
+      <view class="left">
+        管理员ID：
+        <text>{{phone1}}</text>
+
+        <view class="btn" bindtap="tuichu">
+          <image src="../../image/onebutton@2x.png"></image>
+         <text> 退出登录</text>
+        </view>
+      </view>
+      <view class="right" bindtap="dingdan">
+        <image src="../../image/line@2x.png" class="line"></image>
+        <image src="../../image/order@2x.png"></image>
+        <text>订单</text>
+      </view>
+    </view>
+     <view class="sao" bindtap='getScancode'>
+     <image src="../../image/scanning@2x.png"></image>
+     <text>扫描</text>
+     </view>
+     <view class="ding" bindtap="shuru">
+     <image src="../../image/input@2x.png"></image>
+     <text>输入订单号</text>
+     </view>
+  </view>
+
+</view>

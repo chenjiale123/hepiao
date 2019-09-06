@@ -1,0 +1,132 @@
+Page{
+  width: 100%;
+  height: 100%;
+
+}
+.whole{
+    width: 100%;
+  height: 100%;
+  background:rgba(41,48,69,1);
+padding-top: 30rpx;
+box-sizing: border-box;
+}
+.com{
+width: 93%;
+margin: 0 auto
+}
+.search{
+  width: 100%;
+  height: 80rpx;
+}
+.search>.left{
+  width: 80%;
+  height: 100%;
+
+float: left;
+box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 1);
+
+}
+.search>.left>input{
+  width: 100%;
+  height: 100%;
+    background:rgba(255,255,255,1);
+box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+border-top-left-radius:20rpx;
+border-bottom-left-radius:20rpx;
+}
+.search>.right{
+  float: left;
+  width: 20%;
+  height: 100%;
+
+}
+.search>.left>input[placeholder]{
+  font-size:28rpx;
+font-family:PingFang-SC-Medium;
+font-weight:500;
+color:rgba(153,153,153,1);
+padding-left: 40rpx;
+}
+.search>.right>button{
+    width: 100%;
+  height: 100%;
+  background:linear-gradient(-10deg,rgba(61,178,163,1) 0%,rgba(83,195,232,1) 100%);
+border-top-right-radius:20rpx;
+border-bottom-right-radius:20rpx;
+border-top-left-radius:0rpx;
+border-bottom-left-radius:0rpx;
+font-size:36rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(255,255,255,1);
+text-align: center;
+line-height: 80rpx;
+}
+.ka{
+  margin-top: 86rpx;
+  width:100%;
+height:398rpx;
+background:rgba(255,255,255,1);
+border-radius:20rpx
+}
+.ka>image{
+  border-radius:20rpx;
+  width: 100%;
+  height: 100%
+}
+.yin{
+  width: 100%;
+  height: 17rpx;
+  background:linear-gradient(180deg,rgba(65,69,143,0.6) 0%,rgba(255,255,255,0) 100%);
+/* border-radius:20px; */
+}
+.top{
+  width: 100%;
+  height: 82rpx;
+}
+.topIn{
+  width: 90%;
+   margin: 0 auto;
+   height: 100%;
+   font-size:32rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(41,48,69,1);
+border-bottom: 2rpx dashed #293045;
+line-height: 82rpx;
+}
+.main{
+  width: 100%;
+  height: 317rpx;
+
+}
+.mainIn{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 55rpx;
+  box-sizing: border-box;
+  position: relative
+}
+.mainIn>text{
+  display: block;
+  font-size:26rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(41,48,69,1);
+margin-bottom: 30rpx;
+}
+.mainIn>button{
+position: absolute;
+bottom: 0rpx;
+right: 0;
+width:128rpx;
+height:58rpx;
+border:2px solid rgba(61,178,163,1);
+border-radius:29rpx;
+font-size:26rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(61,178,163,1);
+text-align: center;
+line-height: 58rpx;
+}

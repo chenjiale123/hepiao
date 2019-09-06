@@ -1,0 +1,30 @@
+<view class="whole">
+<view class="com">
+ <view class="jieguo">
+ <image src="../../image/successful@2x.png"></image>
+ <text>扫描通过，请入园</text>
+ 
+ </view>
+   <view class="ka">
+      <view class="yin"></view>
+      <view class="top">
+        <view class="topIn">
+          游客：{{xinxi.buyers}}</view>
+
+      </view>
+      <view class="main">
+        <view class="mainIn">
+        <text>电话：{{array.buyersPhone}}</text>
+          <text>验证码：{{array.orderno}}</text>
+          <text>订单总价：￥{{array.price}}</text>
+          <text>订单时间：{{array.createDate}}</text>
+        </view>
+
+      </view>
+    </view>
+
+ <button bindtap="index1"><text> 确认</text> <image src="../../image/secondbutton@2x.png"></image> </button>
+</view>
+
+
+</view>

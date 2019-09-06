@@ -1,0 +1,146 @@
+Page{
+  width: 100%;
+  height: 100%;
+background:rgba(41,48,69,1);
+
+}
+.whole{
+    width: 100%;
+  height: 100%;
+background:rgba(41,48,69,1);
+padding-top: 30rpx;
+box-sizing: border-box;
+
+}
+.com{
+  width: 93%;
+  margin: 0 auto;
+}
+.top{
+  width: 100%;
+  height: 300rpx;
+  background: #36405C;
+  padding-top: 48rpx;
+  box-sizing: border-box;
+border-radius:10rpx;
+
+}
+.top>.left{
+width: 60%;
+height: 204rpx;
+float: left;
+font-size:28rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(255,255,255,1);
+padding-left: 30rpx;
+box-sizing: border-box
+}
+.top>.left>text{
+  display: block;
+  font-size:32rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(255,255,255,1);
+}
+.top>.left>.btn{
+  margin-top: 76rpx;
+  width: 180rpx;
+  height: 48rpx;
+position: relative;
+
+}
+.top>.left>.btn>text{
+font-size:26rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(255,255,255,1);
+text-align: center;
+display: block;
+margin: 0 auto;
+line-height: 48rpx;
+position: relative
+}
+.top>.left>.btn>image{
+  position: absolute;
+    width: 180rpx;
+  height: 48rpx;
+  top: 0;
+  left: 0
+}
+.top>.right{
+  width: 40%;
+  height: 204rpx;
+  float: left;
+  position: relative;
+  text-align: center;
+padding-top: 30rpx;
+box-sizing: border-box
+
+}
+.top>.right>text{
+  display: block;
+    font-size:28rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(255,255,255,1);
+  margin-top: 17rpx;
+
+}
+.top>.right>image{
+width: 88rpx;
+height: 88rpx;
+}
+.top>.right>.line{
+  width: 4rpx;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sao{
+width:330rpx;
+height:300rpx;
+background:rgba(54,64,92,1);
+border-radius:10rpx;
+float: left;
+margin-right: 30rpx;
+margin-top: 30rpx;
+text-align: center;
+padding-top: 58rpx;
+box-sizing: border-box
+
+}
+.sao>image{
+  width: 110rpx;
+  height: 110rpx;
+
+}
+.sao>text,.ding>text{
+    display: block;
+    font-size:28rpx;
+font-family:PingFang-SC-Bold;
+font-weight:bold;
+color:rgba(255,255,255,1);
+  margin-top: 17rpx;
+}
+.ding{
+  padding-top: 58rpx;
+box-sizing: border-box;
+width:330rpx;
+height:300rpx;
+background:rgba(54,64,92,1);
+border-radius:10rpx;
+float: left;
+
+margin-top: 30rpx;
+text-align: center;
+
+
+}
+.ding>image{
+  width: 110rpx;
+  height: 110rpx;
+
+}
+
